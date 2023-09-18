@@ -5,6 +5,7 @@ use std::net::TcpListener;
 async fn main() -> std::io::Result<()> {
     // Bubble up the io::Error if we failed to bind the address
     // Otherwise call .await on our serve
-    let listener = TcpListener::bind("127.0.0.1:0").unwrap();
-    run(listener)?.await
+    todo!()
+    // let listener = TcpListener::bind("127.0.0.1:0").unwrap();
+    // run(listener)?.await
 }
